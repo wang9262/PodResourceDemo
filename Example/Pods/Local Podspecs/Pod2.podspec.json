@@ -20,6 +20,6 @@
   },
   "source_files": "Pod2/**/*.{h,m}",
   "resources": [
-    "Pod2/**/*.xcassets"
+    "Pod2/**/*.png"
   ]
 }

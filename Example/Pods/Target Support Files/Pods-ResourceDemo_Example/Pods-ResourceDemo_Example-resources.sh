@@ -85,11 +85,15 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Pod1/Pod1.bundle"
-  install_resource "${PODS_ROOT}/../../Pod2/Pod2.xcassets"
+  install_resource "${PODS_ROOT}/../../Pod2/Pod2.bundle/Pod2222.png"
+  install_resource "${PODS_ROOT}/../../Pod2/Pod@2x.png"
+  install_resource "${PODS_ROOT}/../../Pod2/Pod@3x.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Pod1/Pod1.bundle"
-  install_resource "${PODS_ROOT}/../../Pod2/Pod2.xcassets"
+  install_resource "${PODS_ROOT}/../../Pod2/Pod2.bundle/Pod2222.png"
+  install_resource "${PODS_ROOT}/../../Pod2/Pod@2x.png"
+  install_resource "${PODS_ROOT}/../../Pod2/Pod@3x.png"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

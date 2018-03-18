@@ -11,7 +11,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        _podImage = [UIImage imageNamed:@"Pod"
+        _podImage = [UIImage imageNamed:@"Pod@2x"
                                inBundle:[NSBundle bundleForClass:[self class]]
           compatibleWithTraitCollection:nil];
     }
