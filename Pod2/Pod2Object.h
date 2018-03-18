@@ -9,4 +9,6 @@
 
 @interface Pod2Object : NSObject
 
+@property (nonatomic, strong) UIImage *podImage;
+
 @end

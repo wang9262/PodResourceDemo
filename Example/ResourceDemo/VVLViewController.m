@@ -7,6 +7,7 @@
 //
 
 #import "VVLViewController.h"
+#import <Pod1Object.h>
 #import <Pod2Object.h>
 
 @interface VVLViewController ()
@@ -21,6 +22,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    Pod1Object *pod1 = [Pod1Object new];
+    Pod2Object *pod2 = [Pod2Object new];
+    // Pod1
+    self.topImageView.image = pod1.podImage;
+    // Main
+    self.centerImageView.image = [UIImage imageNamed:@"Pod"];
+    // Pod2
+    self.bottomImageView.image = pod2.podImage;
 }
 
 - (void)didReceiveMemoryWarning {
