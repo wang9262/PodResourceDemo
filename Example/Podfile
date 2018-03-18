@@ -1,0 +1,13 @@
+#use_frameworks!
+
+target 'ResourceDemo_Example' do
+  platform :ios, '8.0'
+  pod 'Pod1', :path => '../.'
+  pod 'Pod2', :path => '../.'
+
+  target 'ResourceDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

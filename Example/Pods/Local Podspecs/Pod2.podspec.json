@@ -1,0 +1,25 @@
+{
+  "name": "Pod2",
+  "version": "0.1.0",
+  "summary": "Pod2",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wang9262/ResourceDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wang9262": "vong9262@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wang9262/ResourceDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pod2/**/*.{h,m}",
+  "resources": [
+    "Pod2/**/*.xcassets"
+  ]
+}

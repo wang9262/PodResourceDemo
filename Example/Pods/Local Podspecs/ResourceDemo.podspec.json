@@ -1,0 +1,22 @@
+{
+  "name": "ResourceDemo",
+  "version": "0.1.0",
+  "summary": "A short description of ResourceDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wang9262/ResourceDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wang9262": "wangle@meitu.com"
+  },
+  "source": {
+    "git": "https://github.com/wang9262/ResourceDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ResourceDemo/Classes/**/*"
+}
